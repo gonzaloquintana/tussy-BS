@@ -1,0 +1,80 @@
+nav {
+  background-color: #c1e4f0;
+}
+body,
+main {
+  background-color: #faf8f0;
+}
+footer {
+  background-color: #e4ded2;
+}
+.banner {
+  width: 100%;
+}
+.texto-sm p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+.btn-redes {
+  background-color: #353739;
+}
+.botones__footer a {
+  display: grid;
+  justify-items: center;
+}
+
+/* estilo CARRITO DE COMPRAS */
+.pedido {
+  padding: 0.5rem 0;
+  border-top: 1px solid;
+}
+.pedido p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+.pedido__img {
+  width: 100%;
+}
+.btn__comprar {
+  background-color: black;
+  color: white;
+}
+/* estilo CONTACTANOS */
+
+.formContacto__campo {
+  height: 1.5rem;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px black;
+}
+
+.btn__Contacto {
+  background-color: black;
+  color: white;
+}
+
+/* estilo COBERTURA Y COMPRAS */
+.cobertura__mapa {
+  width: 100%;
+  margin: auto;
+  height: 15rem;
+  padding: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .formContacto {
+    background-color: white;
+    padding: 2rem;
+    width: 75%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .texto-lg p {
+    font-size: 1.5rem;
+  }
+  /* COBERTURA Y COMPRAS */
+  .cobertura__mapa {
+    height: 20rem;
+  }
+}
