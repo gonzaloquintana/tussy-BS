@@ -21,46 +21,54 @@
     <title>Tussy - BS</title>
   </head>
   <body class="texto-lg texto-md">
-    <nav class="navbar navbar-expand-lg navbar-light py-3">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img width="80" src="../imagenes/logoTussy.svg" alt="" /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navMenu"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="hombre.html">Hombre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="hombre.html">Mujer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="hombre.html">Chicos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="hombre.html">Promociones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Carrito</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Busca el producto" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"><img width="80" src="../imagenes/logoTussy.svg" alt="" /></a>
+          <button
+            class="navbar-toggler order-last"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="hombre.html">Hombre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hombre.html">Mujer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hombre.html">Chicos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hombre.html">Promociones</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Busca el producto" aria-label="Search" />
+              <button class="btn btn-outline-dark" type="submit">Buscar</button>
+            </form>
+          </div>
+          <div class="row col-lg-2 menu__iconos">
+            <ul class="list-unstyled list-inline iconos">
+              <li class="list-inline-item">
+                <a href="error.html"><img src="../imagenes/iconos/usuario.svg" alt="Usuario" /></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><img src="../imagenes/iconos/bolsaDeCompras.svg" alt="Comprar" /></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <!-- Contenido -->
     <main class="container py-3">
@@ -147,30 +155,28 @@
     <footer class="text-center text-lg-start">
       <div class="container d-flex justify-content-center py-3 text-uppercase botones__footer">
         <a href="cobertura-comprar.html#cobertura" class="btn fs-5 col-4 col-md-4 col-lg-3"
-          ><img src="../imagenes/iconos/reparto.svg" width="80px" alt="" />Cobertura</a
+          ><img src="../imagenes/iconos/reparto.svg" alt="" />Cobertura</a
         >
         <a href="cobertura-comprar.html#comoComprar" class="btn fs-5 col-4 col-md-4 col-lg-3"
-          ><img src="../imagenes/iconos/compraCheck.svg" width="80px" alt="" />Como Comprar</a
+          ><img src="../imagenes/iconos/compraCheck.svg" alt="" />Como Comprar</a
         >
-        <a href="#" class="btn fs-5 col-4 col-md-4 col-lg-3"
-          ><img src="../imagenes/iconos/ayuda.svg" width="80px" alt="" />Ayuda</a
-        >
+        <a href="#" class="btn fs-5 col-4 col-md-4 col-lg-3"><img src="../imagenes/iconos/ayuda.svg" alt="" />Ayuda</a>
       </div>
 
       <div class="container d-flex justify-content-center py-3">
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #353739">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 btn-redes">
           <i class="bi bi-facebook"></i>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #353739">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 btn-redes">
           <i class="bi bi-instagram"></i>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #353739">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2 btn-redes">
           <i class="bi bi-twitter"></i>
         </button>
       </div>
 
       <!-- Copyright -->
-      <div class="text-center text-black p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      <div class="text-center text-black p-3 derechos">
         © 2020 Copyright:
         <a class="text-black" href="https://mdbootstrap.com/">By Gonzalo Quintana</a>
       </div>

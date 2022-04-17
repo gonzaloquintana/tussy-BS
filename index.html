@@ -19,46 +19,54 @@
     <title>Tussy - BS</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light py-3">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img width="80" src="imagenes/logoTussy.svg" alt="" /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navMenu"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="pages/hombre.html">Hombre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/hombre.html">Mujer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/hombre.html">Chicos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/hombre.html">Promociones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/carrito.html">Carrito</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Busca el producto" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img width="80" src="imagenes/logoTussy.svg" alt="" /></a>
+          <button
+            class="navbar-toggler order-last"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/hombre.html">Hombre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/hombre.html">Mujer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/hombre.html">Chicos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/hombre.html">Promociones</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Busca el producto" aria-label="Search" />
+              <button class="btn btn-outline-dark" type="submit">Buscar</button>
+            </form>
+          </div>
+          <div class="row col-lg-2 menu__iconos">
+            <ul class="list-unstyled list-inline iconos">
+              <li class="list-inline-item">
+                <a href="pages/error.html"><img src="imagenes/iconos/usuario.svg" alt="Usuario" /></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="pages/carrito.html"><img src="imagenes/iconos/bolsaDeCompras.svg" alt="Comprar" /></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <img class="banner" src="imagenes/banner.jpg" alt="banner" />
     <!-- Contenido -->
     <main class="container col-lg-11 py-3">
@@ -126,13 +134,13 @@
     <footer class="text-center text-lg-start">
       <div class="container d-flex justify-content-center py-3 text-uppercase botones__footer">
         <a href="pages/cobertura-comprar.html#Cobertura" class="btn fs-5 col-4 col-md-4 col-lg-3"
-          ><img src="imagenes/iconos/reparto.svg" width="80px" alt="" />Cobertura</a
+          ><img src="imagenes/iconos/reparto.svg" alt="" />Cobertura</a
         >
         <a href="pages/cobertura-comprar.html#comoComprar" class="btn fs-5 col-4 col-md-4 col-lg-3"
-          ><img src="imagenes/iconos/compraCheck.svg" width="80px" alt="" />Como Comprar</a
+          ><img src="imagenes/iconos/compraCheck.svg" alt="" />Como Comprar</a
         >
         <a href="pages/contactanos.html" class="btn fs-5 col-4 col-md-4 col-lg-3"
-          ><img src="imagenes/iconos/ayuda.svg" width="80px" alt="" />Ayuda</a
+          ><img src="imagenes/iconos/ayuda.svg" alt="" />Ayuda</a
         >
       </div>
 
@@ -149,7 +157,7 @@
       </div>
 
       <!-- Copyright -->
-      <div class="text-center text-black p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      <div class="text-center text-black p-3 derechos">
         © 2020 Copyright:
         <a class="text-black" href="#">By Gonzalo Quintana</a>
       </div>
