@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="imagenes/logoTu.svg" />
     <title>Tussy - BS</title>
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="container-fluid sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light py-3">
         <div class="container">
           <a class="navbar-brand" href="#"><img width="80" src="imagenes/logoTussy.svg" alt="" /></a>
@@ -67,7 +68,14 @@
         </div>
       </nav>
     </header>
-    <img class="banner" src="imagenes/banner.jpg" alt="banner" />
+    <div class="slider-frame">
+      <ul>
+        <li><img src="../imagenes/banner.jpg" alt="" /></li>
+        <li><img src="../imagenes/banner-hombre.jpg" alt="" /></li>
+        <li><img src="../imagenes/banner-mujer-sola.jpg" alt="" /></li>
+        <li><img src="../imagenes/banner-mujer.jpg" alt="" /></li>
+      </ul>
+    </div>
     <!-- Contenido -->
     <main class="container col-lg-11 py-3">
       <div class="pb-3 d-md-flex">
@@ -78,53 +86,56 @@
         </div>
       </div>
 
+      <!-- Seccion hombre -->
       <div class="d-md-flex">
-        <img class="col-12 col-md-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
+        <img class="col-12 col-md-6 p-1" src="imagenes/hombre/camperaMostaza.jpg" alt="..." />
         <div class="col-md-6">
           <div class="d-flex">
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
+            <img class="col-6 p-1" src="imagenes/hombre/buzoVerde.jpg" alt="..." />
             <div class="col-6 p-1 text-uppercase tituloSeccion">
               <p class="h1">Hom</p>
               <p class="h1">bre</p>
             </div>
           </div>
           <div class="d-flex">
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
+            <img class="col-6 p-1" src="imagenes/hombre/BuzoNegro.jpg" alt="..." />
+            <img class="col-6 p-1" src="imagenes/hombre/pantalon.jpg" alt="..." />
           </div>
         </div>
       </div>
 
+      <!-- Seccion Mujer -->
       <div class="py-3 d-md-flex">
         <div class="col-md-6">
           <div class="d-flex">
-            <div class="col-6 text-uppercase p-1">
+            <img class="col-6 p-1" src="imagenes/mujer/vestidoBlanco.jpg" alt="..." />
+            <div class="col-6 text-uppercase p-1 tituloSeccion">
               <p class="h1">MU</p>
               <p class="h1">JER</p>
             </div>
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
           </div>
           <div class="d-flex">
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
+            <img class="col-6 p-1" src="imagenes/mujer/vestidoNegro.jpg" alt="..." />
+            <img class="col-6 p-1" src="imagenes/mujer/vestidoMarron.jpg" alt="..." />
           </div>
         </div>
-        <img class="col-12 col-md-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
+        <img class="col-12 col-md-6 p-1" src="imagenes/mujer/faldaMarron.jpg" alt="..." />
       </div>
 
+      <!-- Seccion chicos -->
       <div class="d-md-flex">
-        <img class="col-12 col-md-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
+        <img class="col-12 col-md-6 p-1" src="imagenes/chicos/chicos-acostados.jpg" alt="..." />
         <div class="col-md-6">
           <div class="d-flex">
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
-            <div class="col-6 p-1 text-uppercase">
+            <img class="col-6 p-1" src="imagenes/chicos/sweaterVerde.jpg" alt="..." />
+            <div class="col-6 p-1 text-uppercase tituloSeccion">
               <p class="h1">Ni</p>
               <p class="h1">ños</p>
             </div>
           </div>
           <div class="d-flex">
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
-            <img class="col-6 p-1" src="imagenes/camperaMostaza.jpg" alt="..." />
+            <img class="col-6 p-1" src="imagenes/chicos/sweaterRosa.jpg" alt="..." />
+            <img class="col-6 p-1" src="imagenes/chicos/reneraRayada.jpg" alt="..." />
           </div>
         </div>
       </div>
