@@ -71,84 +71,83 @@
     </header>
 
     <!-- Contenido -->
-    <main class="container py-3">
-      <div class="row justify-content-lg-between">
-        <div class="col-md-8 col-lg-7">
-          <h3 class="text-center col-md-12">Carrito de compras</h3>
-          <div class="row pedido">
-            <div class="col-4 col-lg-3 align-self-center">
-              <img class="pedido__img" src="../imagenes/mujer/vestidoBlanco.jpg" alt="Vestido con Flores" />
-            </div>
-            <div class="col-8">
-              <p class="col-12">Vestido con Flores</p>
-              <div class="d-flex">
-                <div class="col-4">
-                  <p class="">Talle</p>
-                  <p class="">Color</p>
-                  <p class="">Precio</p>
-                  <p class="">Cantidad</p>
+    <main>
+      <section class="container py-3">
+        <div class="row justify-content-lg-between">
+          <div class="col-md-8 col-lg-7">
+            <h3 class="text-center col-md-12">Carrito de compras</h3>
+            <div class="row pedido">
+              <div class="col-4 col-lg-3 align-self-center">
+                <img class="pedido__img" src="../imagenes/mujer/vestidoBlanco.jpg" alt="Vestido con Flores" />
+              </div>
+              <div class="col-8">
+                <p class="col-12">Vestido con Flores</p>
+                <div class="d-flex">
+                  <div class="col-4">
+                    <p class="">Talle</p>
+                    <p class="">Color</p>
+                    <p class="">Precio</p>
+                    <p class="">Cantidad</p>
+                  </div>
+                  <div class="col-8">
+                    <p class="">L</p>
+                    <p class="">Blanco</p>
+                    <p class="">$7.500</p>
+                    <p class="">
+                      <button class="btn bnt__sacarOsumar">-</button>
+                      1
+                      <button class="btn bnt__sacarOsumar">+</button>
+                    </p>
+                  </div>
                 </div>
-                <div class="col-8">
-                  <p class="">L</p>
-                  <p class="">Blanco</p>
-                  <p class="">$7.500</p>
-                  <p class="">
-                    <button class="btn bnt__sacarOsumar">-</button>
-                    1
-                    <button class="btn bnt__sacarOsumar">+</button>
-                  </p>
+              </div>
+            </div>
+            <div class="row pedido">
+              <div class="col-4 col-lg-3 align-self-center">
+                <img class="pedido__img" src="../imagenes/hombre/pantalon.jpg" alt="con Flores" />
+              </div>
+              <div class="col-8">
+                <p class="col-12">Pantalon</p>
+                <div class="d-flex">
+                  <div class="col-4">
+                    <p class="">Talle</p>
+                    <p class="">Color</p>
+                    <p class="">Precio</p>
+                    <p class="">Cantidad</p>
+                  </div>
+                  <div class="col-8">
+                    <p class="">L</p>
+                    <p class="">Beige</p>
+                    <p class="">$4.500</p>
+                    <p class="">
+                      <button class="btn bnt__sacarOsumar">-</button>
+                      1
+                      <button class="btn bnt__sacarOsumar">+</button>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="row pedido">
-            <div class="col-4 col-lg-3 align-self-center">
-              <img class="pedido__img" src="../imagenes/hombre/pantalon.jpg" alt="con Flores" />
-            </div>
-            <div class="col-8">
-              <p class="col-12">Pantalon</p>
-              <div class="d-flex">
-                <div class="col-4">
-                  <p class="">Talle</p>
-                  <p class="">Color</p>
-                  <p class="">Precio</p>
-                  <p class="">Cantidad</p>
-                </div>
-                <div class="col-8">
-                  <p class="">L</p>
-                  <p class="">Beige</p>
-                  <p class="">$4.500</p>
-                  <p class="">
-                    <button class="btn bnt__sacarOsumar">-</button>
-                    1
-                    <button class="btn bnt__sacarOsumar">+</button>
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-4 col-lg-4">
+            <p class="h4 text-center">Resumen de compra</p>
+            <form action="" class="row justify-content-end text-end">
+              <label class="col-6" for="zona">Zona de envió</label>
+              <select class="col-6" name="zona" id="zona">
+                <option value="CABA">CABA</option>
+                <option value="GBA-Norte">Zona Norte</option>
+                <option value="GBA-Oeste">Zona Oeste</option>
+                <option value="GBA-Sur">Zona Sur</option>
+              </select>
+              <label class="col-6" for="fecha">Fecha de entrega</label>
+              <input class="col-6" type="date" name="date" id="date" />
+              <label class="col-6" for="">Total</label>
+              <label class="col-6 text-center" for="">$15.000</label>
+              <input class="btn col-6 rounded-pill btn__comprar" sstype="submit" value="Comprar" />
+            </form>
           </div>
         </div>
-
-        <div class="col-md-4 col-lg-4">
-          <p class="h4 text-center">Resumen de compra</p>
-
-          <form action="" class="row justify-content-end text-end">
-            <label class="col-6" for="zona">Zona de envió</label>
-            <select class="col-6" name="zona" id="zona">
-              <option value="CABA">CABA</option>
-              <option value="GBA-Norte">Zona Norte</option>
-              <option value="GBA-Oeste">Zona Oeste</option>
-              <option value="GBA-Sur">Zona Sur</option>
-            </select>
-            <label class="col-6" for="fecha">Fecha de entrega</label>
-            <input class="col-6" type="date" name="date" id="date" />
-            <label class="col-6" for="">Total</label>
-            <label class="col-6 text-center" for="">$15.000</label>
-            <input class="btn col-6 rounded-pill btn__comprar" sstype="submit" value="Comprar" />
-          </form>
-        </div>
-      </div>
+      </section>
     </main>
 
     <!-- Footer -->
