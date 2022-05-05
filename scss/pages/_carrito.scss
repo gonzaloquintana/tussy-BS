@@ -1,0 +1,34 @@
+@import "../variables";
+@import "../mixin";
+.pedido {
+  padding: 0.5rem 0;
+  border-top: 1px solid;
+}
+.pedido p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  font-size: map-get($font-sizes, medium);
+}
+.pedido__img {
+  width: 100%;
+}
+.btn {
+  background-color: $bg-color-black;
+  color: $color-fuente-white;
+}
+.btn__comprar {
+  &:hover {
+    @extend .btn;
+    background-color: #353739;
+  }
+}
+.btn__sacarOsumar {
+  &:hover {
+    color: #c1e4f0;
+    font-weight: map-get($font-weights, bold);
+  }
+}
+
+.carrito-modif {
+  @include flexBetween(row-reverse);
+}

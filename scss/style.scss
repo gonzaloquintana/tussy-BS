@@ -1,5 +1,8 @@
 @import "globales";
+@import "variables";
+@import "mixin";
 @import "colores";
-@import "navbar";
-@import "footer";
-@import "index";
+@import "pages/navbar";
+@import "pages/footer";
+@import "pages/index";
+@import "pages/carrito";
