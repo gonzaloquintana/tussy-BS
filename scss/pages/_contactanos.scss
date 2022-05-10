@@ -1,0 +1,45 @@
+.formContacto__campo {
+  height: 1.5rem;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px $color-black;
+}
+.formContacto__mensaje {
+  background-color: transparent;
+  height: 7rem;
+  border: solid 1px $color-black;
+}
+.formContacto {
+  animation: entrada-arriba 1.5s ease;
+}
+@keyframes entrada-arriba {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+} /*animación de from entrando desde arriba */
+.btn__Contacto {
+  background-color: $color-black;
+  color: $color-white;
+}
+.btn__Contacto:hover {
+  color: $color-white;
+  box-shadow: inset -10rem 0.2rem 0 0 $color-grey, inset 10rem 0 0 0.2rem $color-grey;
+  border-radius: 0 1rem;
+}
+@media screen and (min-width: 768px) {
+  .formContacto {
+    background-color: $color-white;
+    padding: 2rem;
+    width: 75%;
+    margin: auto;
+  }
+  .tituloSeccion p {
+    font-size: 4rem;
+  }
+}

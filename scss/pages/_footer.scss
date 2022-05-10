@@ -7,7 +7,7 @@
     display: grid;
     justify-items: center;
     background-color: transparent;
-    color: black;
+    color: $color-black;
 
     &:hover {
       background-color: transparent;
@@ -17,13 +17,14 @@
   }
 }
 .btn-redes {
-  background-color: #353739;
-  border: rgb(53, 55, 570);
+  color: $color-white;
+  background-color: $color-grey;
+  border: $color-grey;
   &:hover {
-    background-color: black;
+    background-color: $color-black;
     transform: scale(1.3);
   }
 }
 .derechos {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: $color-transparente;
 }

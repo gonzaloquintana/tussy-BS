@@ -12,10 +12,6 @@
 .pedido__img {
   width: 100%;
 }
-.btn {
-  background-color: $bg-color-black;
-  color: $color-fuente-white;
-}
 .btn__comprar {
   &:hover {
     @extend .btn;

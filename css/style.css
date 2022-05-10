@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +17,11 @@ body main {
 }
 body footer {
   background-color: #e4ded2;
+}
+
+.btn, .btn__comprar:hover {
+  background-color: black;
+  color: white;
 }
 
 .iconos {
@@ -43,8 +49,9 @@ body footer {
 }
 
 .btn-redes {
+  color: white;
   background-color: #353739;
-  border: rgb(53, 55, 255);
+  border: #353739;
 }
 .btn-redes:hover {
   background-color: black;
@@ -118,6 +125,11 @@ body footer {
     font-size: 5.5rem;
   }
 }
+.btn, .btn__comprar:hover {
+  background-color: black;
+  color: white;
+}
+
 .pedido {
   padding: 0.5rem 0;
   border-top: 1px solid;
@@ -131,11 +143,6 @@ body footer {
 
 .pedido__img {
   width: 100%;
-}
-
-.btn, .btn__comprar:hover {
-  background-color: black;
-  color: white;
 }
 
 .btn__comprar:hover {
@@ -152,6 +159,90 @@ body footer {
   justify-content: space-between;
   font-size: 1.5rem;
   flex-direction: row-reverse;
+}
+
+.cobertura__mapa {
+  width: 100%;
+  margin: auto;
+  height: 15rem;
+  padding: 0.5rem;
+}
+
+.comoComprar__video {
+  width: 100%;
+  margin: auto;
+  height: 12rem;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .cobertura__mapa {
+    height: 20rem;
+  }
+
+  .cobertura__info p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+
+  .comoComprar__video {
+    width: 100%;
+    margin: auto;
+    height: 25rem;
+    padding: 0.5rem;
+  }
+}
+.formContacto__campo {
+  height: 1.5rem;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  border-bottom: solid 1px black;
+}
+
+.formContacto__mensaje {
+  background-color: transparent;
+  height: 7rem;
+  border: solid 1px black;
+}
+
+.formContacto {
+  animation: entrada-arriba 1.5s ease;
+}
+
+@keyframes entrada-arriba {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/*animación de from entrando desde arriba */
+.btn__Contacto {
+  background-color: black;
+  color: white;
+}
+
+.btn__Contacto:hover {
+  color: white;
+  box-shadow: inset -10rem 0.2rem 0 0 #353739, inset 10rem 0 0 0.2rem #353739;
+  border-radius: 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .formContacto {
+    background-color: white;
+    padding: 2rem;
+    width: 75%;
+    margin: auto;
+  }
+
+  .tituloSeccion p {
+    font-size: 4rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
