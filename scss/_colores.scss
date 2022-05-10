@@ -1,14 +1,21 @@
+$color-black: black;
+$color-white: white;
+$color-grey: #353739;
+$color-primary: #c1e4f0;
+$color-secondary: #faf8f0;
+$color-tertiary: #e4ded2;
+$color-transparente: rgba(0, 0, 0, 0.2);
 body {
-  background-color: #faf8f0;
+  background-color: $color-secondary;
 
   header {
     /*background-color: #c1e4c1;*/
-    background-color: #c1e4f0;
+    background-color: $color-primary;
   }
   main {
-    background-color: #faf8f0;
+    background-color: $color-secondary;
   }
   footer {
-    background-color: #e4ded2;
+    background-color: $color-tertiary;
   }
 }
