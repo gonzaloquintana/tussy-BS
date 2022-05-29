@@ -2,6 +2,7 @@ $font-weights: (
   "regular": 400,
   "medium": 500,
   "bold": 700,
+  "super-bold": 900,
 );
 $font-sizes: (
   "small": 0.5rem,
@@ -11,6 +12,6 @@ $font-sizes: (
   "x-large": 2.5rem,
 );
 .btn {
-  background-color: $color-black;
+  background-color: $color-grey;
   color: $color-white;
 }

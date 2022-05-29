@@ -1,6 +1,6 @@
 @mixin flexBetween($direction) {
   display: flex;
   justify-content: space-between;
-  font-size: map-get($font-sizes, medium);
+  font-size: map-get($font-sizes, regular);
   flex-direction: $direction;
 }

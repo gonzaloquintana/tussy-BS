@@ -7,7 +7,7 @@
 .pedido p {
   margin-top: 0;
   margin-bottom: 0rem;
-  font-size: map-get($font-sizes, medium);
+  font-size: map-get($font-sizes, regular);
 }
 .pedido__img {
   width: 100%;
@@ -15,16 +15,29 @@
 .btn__comprar {
   &:hover {
     @extend .btn;
-    background-color: #353739;
+    background-color: $color-black;
   }
 }
 .btn__sacarOsumar {
+  padding: 0rem;
+  width: 1rem;
   &:hover {
-    color: #c1e4f0;
+    @extend .btn;
+    background-color: $color-black;
     font-weight: map-get($font-weights, bold);
   }
+  &:focus {
+    box-shadow: none;
+  }
 }
-
 .carrito-modif {
-  @include flexBetween(row-reverse);
+  @include flexBetween(row);
+}
+@media screen and (min-width: 1024px) {
+  .texto-lg-carrito p {
+    font-size: map-get($font-sizes, medium);
+  }
+  form {
+    font-size: map-get($font-sizes, medium);
+  }
 }

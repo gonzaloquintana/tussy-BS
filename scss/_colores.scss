@@ -1,6 +1,6 @@
 $color-black: black;
 $color-white: white;
-$color-grey: #353739;
+$color-grey: #232525;
 $color-primary: #c1e4f0;
 $color-secondary: #faf8f0;
 $color-tertiary: #e4ded2;
@@ -10,12 +10,12 @@ body {
 
   header {
     /*background-color: #c1e4c1;*/
-    background-color: $color-primary;
+    background-color: #03c0b6;
   }
   main {
     background-color: $color-secondary;
   }
   footer {
-    background-color: $color-tertiary;
+    background-color: #6c7677;
   }
 }
